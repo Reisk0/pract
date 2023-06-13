@@ -1,0 +1,44 @@
+#titulo {
+
+    color: tomato;
+}
+p.texto{color: rgb(75, 75, 206);
+    color: blueviolet;
+}
+p.especial{ color: brown;}
+
+div p {
+    color: aqua;
+}
+div h2, div h3 {
+    color: brown;
+} 
+
+* {
+    font-size: 24px;
+    color: black;
+}
+/* con esta etiquta podras poner los comentarios */
+
+/* .color { color: #eee;} con este codigo puedes agregar el color con un valor exadecimal*/
+
+/* .color { color: rgb(0, 255, 255);} con este codigo puedes agregar el color con un valor de una manera distinta, con numeros */
+
+.color {
+    /* border: 5px crimson inset; */
+    /* esta etiquta de boorder sirve para poder darle borde al elemento de la clase seleciionada
+    los tipos son:
+    dotted 
+    dashed 
+    double
+    grove
+    ridge
+    inset 
+    outset
+    none
+    hidden */
+    border-style: inset;
+    border-color: crimson;
+    border-radius: 5px;
+    border-width: 5px;
+}
